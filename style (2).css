@@ -1,0 +1,114 @@
+/* Basic reset and page-wide settings */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header and footer share the same look */
+header,
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Links */
+a {
+  color: #2c7be5;
+}
+
+header a,
+footer a {
+  color: white;
+}
+
+/* Navigation */
+nav {
+  margin-top: 15px;
+}
+
+/* Main content sits in a centred column */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Space between each section */
+section {
+  margin-bottom: 30px;
+}
+
+/* Images and the caption */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+/* Video should not overflow small screens */
+iframe {
+  max-width: 100%;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Form */
+input,
+select {
+  padding: 6px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Radio buttons shouldn't stretch to full width */
+input[type="radio"] {
+  width: auto;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #2c7be5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a5bb8;
+}
+
+/* Footer links sit side by side with a gap */
+.footer-links a {
+  margin: 0 10px;
+}

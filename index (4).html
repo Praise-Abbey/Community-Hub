@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poplar Union Community Art Club</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- In style.css add: table { width: 100%; } caption { font-size: 1.25em; font-weight: bold; } -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Poplar Union Community Art Club</h1>
+      <p>
+        Welcome to the East London Community Arts Hub. Join our workshops,
+        meet local creatives and discover what's on in Poplar.
+      </p>
+      <figure>
+        <img
+          src="https://poplarunion.com/wp-content/uploads/2020/01/Poplar-Union_outside-477x477.jpg"
+          alt="Exterior of the Poplar Union arts venue"
+          width="477" height="477">
+        <figcaption>Poplar Union, the creative heart of Poplar in east London.</figcaption>
+      </figure>
+      <nav aria-label="Main">
+        <a href="#about">About Us</a> |
+        <a href="#workshops">Workshops</a> |
+        <a href="#media">Watch &amp; Listen</a> |
+        <a href="#register">Register</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>Who we are</h2>
+        <p>Poplar Union is a vibrant arts and community space based in Tower Hamlets since 2017.</p>
+        <h3>What we do and how we do it</h3>
+        <details>
+          <summary>The creative heart &amp; soul of Poplar: enriching lives and inspiring the community</summary>
+          <p>
+            Committed to supporting the local community through art, culture and wellbeing, we offer a diverse programme of events, including live music, theatre, comedy and dance, family activities, health and wellbeing classes, community workshops and festivals, and much more 👌. We strive to enhance physical and social prosperity through creativity to unite and celebrate the lives in east London.
+          </p>
+        </details>
+      </section>
+
+      <section id="workshops">
+        <h2>Workshop Schedule</h2>
+        <table>
+          <caption>Upcoming Workshops</caption>
+          <thead>
+            <tr>
+              <th scope="col">Workshop</th>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Instructor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pottery</td>
+              <td><time datetime="2027-05-15">15/05/2027</time></td>
+              <td>13:00</td>
+              <td>Lawrence</td>
+            </tr>
+            <tr>
+              <td>Photography</td>
+              <td><time datetime="2027-09-21">21/09/2027</time></td>
+              <td>18:00</td>
+              <td>Jane</td>
+            </tr>
+            <tr>
+              <td>Coding</td>
+              <td><time datetime="2027-03-30">30/03/2027</time></td> <!-- placeholder date -->
+              <td>15:00</td>
+              <td>Peter</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="media">
+        <h2>Watch &amp; Listen</h2>
+        <h3>Video</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VCVZN86lhok"
+          title="Poplar Union - Jumoke Fashola interviews Momtaz Ajid on Black History Month"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="https://files.catbox.moe/09815l.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section id="register">
+        <h2>Workshop Registration</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+          </p>
+
+          <p>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </p>
+
+          <p>
+            <label for="workshop">Workshop Selection</label><br>
+            <select id="workshop" name="workshop" required>
+              <option value="">-- Choose a workshop --</option>
+              <option value="pottery">Pottery</option>
+              <option value="photography">Photography</option>
+              <option value="coding">Coding</option>
+            </select>
+          </p>
+
+          <fieldset>
+            <legend>Session Preference</legend>
+            <p>
+              <input type="radio" id="in-person" name="session" value="in-person" required>
+              <label for="in-person">In person</label>
+            </p>
+            <p>
+              <input type="radio" id="online" name="session" value="online">
+              <label for="online">Online</label>
+            </p>
+          </fieldset>
+
+          <p><button type="submit">Submit</button></p>
+        </form>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <address>
+          <p>
+            Poplar Union<br>
+            2 Cotall St,<br>
+            Poplar<br>
+            London
+          </p>
+          <p>Phone: <a href="tel:+442030393333">+44 20 3039 3333</a></p>
+          <p>Email: <a href="mailto:info@poplarunion.com">info@poplarunion.com</a></p>
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 PoplarUnion. All rights reserved</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </footer>
+  </body>
+</html>
